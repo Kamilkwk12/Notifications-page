@@ -12,9 +12,9 @@
     <header>
       <h1>Notifications</h1>
       <div id="notify-number">3</div>
-      <div id="mark-all">Mark all as read</div>
+      <div id="mark-all" onclick="markAllReadUnread()">Mark all as read</div>
     </header>
-    <section class="unread">
+    <section class="unread" onclick="toggleReadUnread(0)">
       <img src="./assets/images/avatar-mark-webber.webp" alt="profile picture"/>
       <div>
         <span class="name">Mark Webber</span> reacted to your recent post 
@@ -23,7 +23,7 @@
         <span class="time-ago">1m ago</span>
       </div>
     </section>
-    <section class="unread">
+    <section class="unread" onclick="toggleReadUnread(1)">
       <img src="./assets/images/avatar-angela-gray.webp" alt="profile picture"/>
       <div>
         <span class="name">Angela Gray</span> followed you 
@@ -32,7 +32,7 @@
         <span class="time-ago">5m ago</span>
       </div>
     </section>
-    <section class="unread">
+    <section class="unread" onclick="toggleReadUnread(2)">
       <img src="./assets/images/avatar-jacob-thompson.webp" alt="profile picture"/>
       <div>
         <span class="name">Jacob Thompson</span> has joined your group 
@@ -41,7 +41,7 @@
         <span class="time-ago">1 day ago</span>
       </div>
     </section>
-    <section class="">
+    <section class="" onclick="toggleReadUnread(3)">
       <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="profile picture"/>
       <div>
         <span class="name">Rizky Hasanuddin</span> sent you a private message
@@ -54,7 +54,7 @@
         </div>
       </div>
     </section>
-    <section class="">
+    <section class="" onclick="toggleReadUnread(4)">
       <img src="./assets/images/avatar-kimberly-smith.webp" alt="profile picture"/>
       <div>
         <span class="name">Kimberly Smith</span> commented on your picture
@@ -63,7 +63,7 @@
       </div>
       <img src="./assets/images/image-chess.webp" alt="chess image"/>
     </section>
-    <section class="">
+    <section class="" onclick="toggleReadUnread(5)">
       <img src="./assets/images/avatar-nathan-peterson.webp" alt="profile picture"/>
       <div>
         <span class="name">Nathan Peterson</span> reacted to your recent post 
@@ -72,7 +72,7 @@
         <span class="time-ago">2 weeks ago</span>
       </div>
     </section>
-    <section class="">
+    <section class="" onclick="toggleReadUnread(6)" style="margin-bottom: 15px;">
       <img src="./assets/images/avatar-anna-kim.webp" alt="profile picture"/>
       <div>
         <span class="name">Anna Kim</span> left the group 
@@ -82,5 +82,6 @@
       </div>
     </section>
   </main>
+  <script src="./app.js"></script>
 </body>
 </html>
