@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/notifications-page-solution-1urkuTxITt](https://www.frontendmentor.io/solutions/notifications-page-solution-1urkuTxITt)
 - Live Site URL: [https://kamilkwk12.github.io/Notifications-page/](https://kamilkwk12.github.io/Notifications-page/)
 
 ## My process
