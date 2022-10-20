@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://kamilkwk12.github.io/Notifications-page/](https://kamilkwk12.github.io/Notifications-page/)
 
 ## My process
   In this project, I was using mobile-first workflow for the first time ever, and this type of workflow simplifies process of creating responsive site. Firstly, I've created mobile design with all of the CSS styles connected. Then, I've defined @media breakpoint which defines where is starting mobile type of website and where desktop version, then styled it properly with only few selectors. JS code is simple but in my opinion effective. I leave that one up to you to judge.
